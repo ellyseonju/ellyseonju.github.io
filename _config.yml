@@ -112,15 +112,15 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:ellyseonju@gmail.com"
+      url: "mailto:ellyseonju@gmail.com"
+    links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/ellyseonju"
+      url: "https://github.com/ellyseonju"
 
 # Site Footer
 footer:
   links:
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ellyseonju"
