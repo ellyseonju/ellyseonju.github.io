@@ -1,5 +1,5 @@
 ---
-title: "Tag"
+title: "Project"
 layout: tags
 permalink: /tags/
 author_profile: true

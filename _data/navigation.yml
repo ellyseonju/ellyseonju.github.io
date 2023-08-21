@@ -2,7 +2,7 @@
 main:
   - title: "About Elly"
     url: /categories/
-  - title: "Tag"
+  - title: "Project"
     url: /tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

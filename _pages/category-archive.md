@@ -1,10 +1,10 @@
 ---
 title: "About Elly"
 layout: categories
-poc: true
 permalink: /categories/
 author_profile: true
 sidebar_main: true
+toc: true
 ---
 
 # This is my first posting on my page. 
