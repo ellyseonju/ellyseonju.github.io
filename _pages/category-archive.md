@@ -7,7 +7,16 @@ sidebar_main: true
 toc: true
 ---
 
-![ELLY is Elly]({{site.url}}/images/2023-08-20-first/ELLY is Elly.jpg)
+Hi, my name is Elly Seonju Jin and I work as a Business Operations at real etate comapny sdfsdfsdf
 
 --------------------------------
 
+# Skills
+
+dfsdfsdfsdfdsfsdfsdfsdfsdfsdfsdfsdf
+
+------------------
+
+# Contact
+
+sdfsdfsdfsdfdfsdfsdfsfdfsdfsdfsdfsdf
