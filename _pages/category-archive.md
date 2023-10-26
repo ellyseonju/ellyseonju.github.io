@@ -5,11 +5,9 @@ permalink: /categories/
 author_profile: true
 ---
 
-Hi, my name is Claudia and I work remotely as a **freelance data scientist**. I hold a Bachelor’s and Master’s degree in science (Business Analytics, VU University Amsterdam).
+## Overview
+--------------
+Hi! My name is Elly Seonju Jin and I am recently working as Business Operations at WeWork Korea. 
 
-Since I was young, I have always enjoyed to solve puzzles. So that’s how I look at big data sets: to me it is one big puzzle I want to solve. Finding patterns nobody else sees is the challenge to me.
-
-I have been working as a data scientist for **more than ten years** with experience in transport, logistics and retail. I have worked for more than 25 companies which gives me the ability to translate complex questions into understandable insights.
-
-Do you want to work together? Please reach out to me by e-mail.
+I was always interested in data and numbers, but never had any formal experience before WeWork. My love of learning and curiosity about how things work led me to start the career journey with WeWork by finding ways of leearning myself new skills on my own time. As a self-taught person who in the Real-Estate industry for 2 years, I’ve obtained the certifications for all practical data tools (Snowflake, Power BI, Tableau) which is used in work.
 
