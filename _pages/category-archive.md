@@ -30,8 +30,7 @@ This includes problem-solving, critical thinking, research skills, and mathemati
 
 
 ## (2) Soft skills
-To understand certain complex concepts and converting them into precise recommendations, I always tried to have a firm grasp of the business context with stakeholders from different departments. For example, When explaining the results of the analysis to the department, I took these three steps (The problem statement→ The data I used to solve the problem→ The result that you obtained) to explain. 
+To understand certain complex concepts and converting them into precise recommendations, I always tried to have a firm grasp of the business context with stakeholders from different departments. For example, When explaining the results of the analysis to the department, I took these three steps (The problem statement→ The data I used to solve the problem→ The result that I obtained) to explain. 
 
 ## (3) Creating Dashboards and Reports
-Once you’ve figured out what you want to do based on the previous skills, technical skills become your toolset. These are easier to acquire than the first two skill sets. Find the most popular online courses for Excel, SQL, Python, PowerBI/Tableau, and stick to them.
 
