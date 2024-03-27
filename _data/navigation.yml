@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "About Elly"
-    url: /categories/
+  - title: "About me"
+    url: /about/
   - title: "Project"
+    url: "/categories/"
+  - title: "Tags"
     url: /tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
