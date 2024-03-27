@@ -2,8 +2,6 @@
 main:
   - title: "About Elly"
     url: /categories/
-  - title: "Portfolio Introduction"
-    url: /categories-grid/ 
   - title: "Project"
     url: /tags/
   # - title: "About"
