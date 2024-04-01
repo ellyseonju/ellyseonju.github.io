@@ -5,9 +5,17 @@ categories: BI
 tag: PowerBI
 ---
 
-<details>
-<summary>Overall</summary>
+![PowerBI Dashboard Picture](https://github.com/ellyseonju/ellyseonju/assets/142702152/f9929f44-07eb-4d18-a6f1-539c3e81b481)
 
-<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
-Audiance:
-Purpos: 
+## Overall 
+* Audinace 
+* Purpose
+* Raw Data 
+
+## Data Preparation & DAX
+* Transform Data
+* Data Modeling
+* DAX 
+
+## Result
+
