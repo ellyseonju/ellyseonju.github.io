@@ -8,14 +8,18 @@ tag: PowerBI
 ![PowerBI Dashboard Picture 2](https://github.com/ellyseonju/ellyseonju/assets/142702152/e41ff381-a4b0-4f5c-ba75-d1072ce37a7a)
 
 ## Overall 
-* Audience: Sales Team 
-* Purpose
-    * Analyze customer churn patterns from various angles to identify customer behavior by finding groups with high churn rates. (This project uses data such as customer gender, tenure, district, age information to identify trends in customer churn and identify strategies for reducing it.)
-* Consider answering the following questions
-    * 
-* Raw Data
-    * The data used on the dashboard is composed of dummy data according to the company data protection policy
-    * Datasets
+* Target department: Sales Team 
+* Business Situation
+    * With the recent increase in customer churn rates using all access, the sales team have tasked me with analyzing customer churn patterns from various angles to identify customer behavior by finding groups with high churn rates. They've asked me to extract data such as customer gender, tenure, district, age information to identify trends in customer churn and identify strategies for reducing it
+* Consider answering the following questions to prepare data 
+    * Is there specific tenure section with the highest  churn rate?
+    * Is there a correlation between the churn rate and the WeWork building Distirct? 
+    * Which product has the highest churn rate 
+    * Which age group has the lowest churn rate and which product do they prefer
+* Tools Used for data: Snowflake, SQL, PowerBI, Excel
+* Extract Data 
+    * Run SQL in Snowflake -> 구문 넣기 
+    * Data Structure
         - customer_id
         - district
         - gender
@@ -23,10 +27,10 @@ tag: PowerBI
         - tenure
         - products_type: 1, 2
         - active_member: 1, 0
-        - churn: 1, 0 
+        - churn: 1, 0
 
 ## Data Preparation & DAX
-* Change Data Type 
+* Change Data Type: Converted ‘tenure’ column from string to number format. Removed trailing spaces in name of each column
 * Transform Data
     * Replace Values
         - products_type: 1(Plus), 2(Basic)
