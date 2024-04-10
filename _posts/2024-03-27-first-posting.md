@@ -18,7 +18,20 @@ tag: PowerBI
     * Which age group has the lowest churn rate and which product do they prefer
 * Tools Used for data: Snowflake, SQL, PowerBI, Excel
 * Extract Data 
-    * Run SQL in Snowflake -> 구문 넣기 
+    * Run SQL in Snowflake
+        ```ruby
+        SELECT ACTIVE_USER_MEMBERSHIPS.customer_uuid, RESERVATIONS.location_name, CUSTOMERS_PII_PERSONAL.gender, CUSTOMERS_PII_PERSONAL.date_of_birth, CHURN_MONTHLY.tenure_in_months, ACTIVE_USER_MEMBERSHIPS.product_name, RESERVABLE_MONTHLY.is_occupied, DATE(ACTIVE_USER_MEMBERSHIPS._run_at) AS date_only
+        FROM CENTRAL.CDM_WORKSPACE_ACCESS.ACTIVE_USER_MEMBERSHIPS
+        LEFT JOIN CENTRAL.CDM_CUSTOMERS_PII_PERSONAL.CUSTOMERS_PII_PERSONAL
+        ON ACTIVE_USER_MEMBERSHIPS.CUSTOMER_UUID = CUSTOMERS_PII_PERSONAL.CUSTOMER_UUID
+        LEFT JOIN CENTRAL.CDM.RESERVATIONS
+        ON ACTIVE_USER_MEMBERSHIPS.ACCOUNT_UUID = RESERVATIONS.ACCOUNT_UUID
+        LEFT JOIN CENTRAL.CDM_REPORTING.CHURN_MONTHLY
+        ON ACTIVE_USER_MEMBERSHIPS.ACCOUNT_UUID = CHURN_MONTHLY.ACCOUNT_UUID
+        LEFT JOIN CENTRAL.CDM_FEATURE_STORE.RESERVABLE_MONTHLY
+        ON ACTIVE_USER_MEMBERSHIPS.ACCOUNT_UUID = RESERVABLE_MONTHLY.ACCOUNT_UUID
+        WHERE date_only BETWEEN '2023-01-01' AND '2024-04-03'
+        ```
     * Data Structure
         - customer_id
         - district
@@ -65,4 +78,16 @@ tag: PowerBI
     
 ## Conclusion
 * Insight Section
+    * Churn Rate and Customer Trends by Age grouping 
+        - 
+    ![Churn_age grouping](https://github.com/ellyseonju/ellyseonju/assets/142702152/bd585ffd-593b-4f9c-8417-895f2b660ced)
+    * Churn Rate and Customer Trends by district 
+        - 
+    ![Churn_districrt_update](https://github.com/ellyseonju/ellyseonju/assets/142702152/9ff61150-42f6-4230-81e2-7f46f0580cba)
+    * Churn Rate and Customer Trends by tenure 
+        - 
+   ![Churn_tenure_update](https://github.com/ellyseonju/ellyseonju/assets/142702152/5184f2df-4324-4e30-9fc2-070f56113d28)
 * Recommendations to reduce customer churn rate
+    * 첫번째 
+    * 두번째 
+    * 세번째 
