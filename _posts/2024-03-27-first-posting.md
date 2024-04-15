@@ -5,7 +5,7 @@ categories: BI
 tag: PowerBI
 ---
 
-![PowerBI Dashboard Picture 2](https://github.com/ellyseonju/ellyseonju/assets/142702152/e41ff381-a4b0-4f5c-ba75-d1072ce37a7a)
+![PowerBI Dashboard Picture_Update](https://github.com/ellyseonju/ellyseonju/assets/142702152/8c9812d8-2984-4a21-a457-aaa31e1a2a83)
 
 ## Overall 
 * Target department: Sales Team 
@@ -79,15 +79,28 @@ tag: PowerBI
 ## Conclusion
 * Insight Section
     * Churn Rate and Customer Trends by Age grouping 
-        - 
-    ![Churn_age grouping](https://github.com/ellyseonju/ellyseonju/assets/142702152/bd585ffd-593b-4f9c-8417-895f2b660ced)
-    * Churn Rate and Customer Trends by district 
-        - 
-    ![Churn_districrt_update](https://github.com/ellyseonju/ellyseonju/assets/142702152/9ff61150-42f6-4230-81e2-7f46f0580cba)
-    * Churn Rate and Customer Trends by tenure 
-        - 
-   ![Churn_tenure_update](https://github.com/ellyseonju/ellyseonju/assets/142702152/5184f2df-4324-4e30-9fc2-070f56113d28)
+       
+        ![Churn_age grouping_update](https://github.com/ellyseonju/ellyseonju/assets/142702152/29d39942-d66e-4a5f-b953-d9267d095b4f)
+        * The number of Customers and Customers Lost for each age group are as follows!
+            * < 20: 6 / 100 (6%)
+            * 21 ~ 30: 168 / 2,247 (7.5%)
+            * 31 ~ 40: 645 / 5,270 (12.2%)
+            * 41 ~ 50: 946 / 2,771 (34.1%)
+            * 51 ~ 60: 522 / 942 (55.4%)
+            * 61 ~ 70: 124 / 397 (31.2%)
+            * over 71: 12 / 151 (7.9%)
+        
+        As you cans see, the highest churn rate is in 51 ~ 60. Slightly it looks like pain point but the proportion of that age group to the total number of customers accounts for about 12%.
+        On the other hand, 31 ~ 40s, which accounts for the most of all customers, is 12% showing a healthy turn rate. Next, those in their 41 ~ 50s with the largest customer base show a rather high turn rate of 34.1%.
+    * Churn Rate and Customer Trends by district
+
+        ![Churn_district_update 2](https://github.com/ellyseonju/ellyseonju/assets/142702152/b7567ba9-b662-4c4b-8358-7cf06f22f032)
+        * In the WeWork Building Area, buildings in the YBD area show a high turn rate (21.2%). Looking more closely- YBD had a high churn rate in 31 ~ 40s. It can be interpreted as a building group that is not preferred by that age group.
+        ![Churn_District_detail](https://github.com/ellyseonju/ellyseonju/assets/142702152/3031c90b-645d-48a0-bae0-58e383bc3347)
+    * Churn Rate and Customer Trends by tenure
+       
+        ![Churn_tenure_update 2](https://github.com/ellyseonju/ellyseonju/assets/142702152/ff6d6c79-fade-438d-9433-b6c06cb35a46)
+        * Customers who have been in use for less than a year have the highest churn rate (22.6%). However, it is not a meaningful analysis because the total number of customers is small. If It approach  more analytically, the customer's dropout rate increases in the 1 ~ 3rd year of use, and the churn  rate decreases in the long-term user period of 7 ~ 9 years.
+
 * Recommendations to reduce customer churn rate
-    * 첫번째 
-    * 두번째 
-    * 세번째 
+    * 

@@ -56,5 +56,5 @@ tag: Tableau
                 - Description: You can check the win-rate among closed sf opportunities. Similar to other visualizations, 1) you can see historical data based on one building, or 2) you can compare win rates around multiple buildings
 
 ## Reference 
-You can check out the real dashboard via my Tableau Public! The design is same, but the data is dummy one with the company's data protection policy. 
+You can check out the real dashboard via my [Tableau Public](https://public.tableau.com/app/profile/elly.jin/vizzes!)! The design is same, but the data is dummy one with the company's data protection policy. 
     
